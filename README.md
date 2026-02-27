@@ -19,11 +19,11 @@ This repository contains the AI agent system that powers ZkVanguard's autonomous
 
 ## Architecture
 
-`
+```
 User Query -> LeadAgent -> RiskAgent -> HedgingAgent -> SettlementAgent
                                                               |
                                                         ReportingAgent
-`
+```
 
 ## Development
 
@@ -32,14 +32,14 @@ User Query -> LeadAgent -> RiskAgent -> HedgingAgent -> SettlementAgent
 - TypeScript
 
 ### Install
-`ash
+```bash
 npm install
-`
+```
 
 ### Run Tests
-`ash
+```bash
 npm test
-`
+```
 
 ## Integration
 
